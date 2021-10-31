@@ -5,7 +5,5 @@
 //  Created by HIBIKI CUBE on 2021/10/31.
 //
 
-import Foundation
-
-print("Hello, World!")
-
+import AppKit
+print(NSStatusBar.system.thickness)

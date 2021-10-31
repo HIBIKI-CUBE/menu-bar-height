@@ -103,7 +103,6 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = B63D176A272E95330084E521;
 			productRefGroup = B63D1774272E95330084E521 /* Products */;
@@ -245,6 +244,7 @@
 		B63D177B272E95330084E521 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NPSM864R9U;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -256,6 +256,7 @@
 		B63D177C272E95330084E521 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NPSM864R9U;
 				ENABLE_HARDENED_RUNTIME = YES;
