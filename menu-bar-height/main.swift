@@ -6,4 +6,8 @@
 //
 
 import AppKit
-print(NSStatusBar.system.thickness)
+
+let screenHeight = NSScreen.main?.frame.height ?? 0
+let screenHeightNative = (CGDisplayCopyAllDisplayModes(CGMainDisplayID(), nil) as? [CGDisplayMode] ?? [])[0].height
+
+print(Int((NSStatusBar.system.thickness * CGFloat(screenHeightNative) / screenHeight).rounded()))
